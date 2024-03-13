@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+
+
+
+
+li {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px;
+}
+
+ul .selected-answer {
+    background-color: #ff00ae;
+    font-weight: bolder;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+.result>h1 {
+    font-weight: 600;
+    font-family: "Madimi One", sans-serif;
+    margin: 12px 0 ;
+}
+
+.result>p,.result>span {
+    font-family: "PT Mono", monospace;
+    margin: 12px 0;
+}
+
